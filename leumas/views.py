@@ -38,7 +38,7 @@ class SendFormEmail(View):
         send_mail(
             'Subject - New Contact Me Message From Your Website', 
             'Hello ' + name + ',\n' + message, 
-            'info@adomeh.com', # Admin
+            'samueladomeh@gmail.com', # Admin
             [
                 email,
             ]
